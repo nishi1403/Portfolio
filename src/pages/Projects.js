@@ -3,7 +3,7 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <h2>My Projects</h2>
       <p>Showcase your projects here.</p>
     </div>
