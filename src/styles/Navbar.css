@@ -1,20 +1,47 @@
+/* Navbar.css */
+
+/* Enhance navbar appearance */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #333;
-  color: white;
-  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+/* Customize brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+.navbar-brand:hover {
+  color: #00b4d8 !important;
+}
+
+/* Style nav links */
+.nav-link {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00b4d8 !important;
+  transform: translateY(-2px);
+}
+
+/* Active link styling */
+.nav-link.active {
+  color: #00b4d8 !important;
+}
+
+/* Mobile menu adjustments */
+@media (max-width: 991px) {
+  .navbar-nav {
+    padding: 1rem;
+    background-color: #212529; /* Matches bg-dark */
+  }
+  
+  .nav-item {
+    margin: 0.5rem 0;
+  }
 }
