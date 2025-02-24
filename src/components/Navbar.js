@@ -49,10 +49,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/certificate" onClick={() => setIsOpen(false)}>
+                Certificate
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/contact" onClick={() => setIsOpen(false)}>
                 Contact
               </Link>
             </li>
+            
           </ul>
         </div>
       </div>

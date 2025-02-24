@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Certificate from './pages/Certificate';
 import Contact from "./pages/Contact";
 
 const AppRoutes = () => {
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/certificate" element={<Certificate/>}/>
       </Routes>
       <Footer />
     </Router>
@@ -23,3 +25,12 @@ const AppRoutes = () => {
 };
 
 export default AppRoutes;
+
+
+
+
+
+
+
+
+
