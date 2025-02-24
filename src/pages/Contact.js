@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Contact.css"; // Custom styles
-import cv from '../assets/nishi.pdf'
+import cv from '../assets/HELLO.pdf' //change the path for your cv
 
 const Contact = () => {
   return (
@@ -35,11 +35,11 @@ const Contact = () => {
               </div>
               <br/>
 
-              {/* Social Media Links with Uiverse.io Design */}
+              
               <ul className="example-2 mb-5">
                 <li className="icon-content">
                   <a
-                    href="https://twitter.com/yourhandle"
+                    href="https://twitter.com/yourhandle"//change link for your accounts
                     aria-label="Twitter"
                     data-social="twitter"
                     target="_blank"
